@@ -91,7 +91,7 @@ jobs:
       - name: Build
         run: |
           ./autogen.sh
-          ./configure
+          ./configure --without-portaudio
           make macosx-dmg
           mv UltraStarDeluxe.dmg UltraStarDeluxe-mac-${{ env.arch }}-${{ env.versionName }}.dmg
       - name: Upload Image Artifact
