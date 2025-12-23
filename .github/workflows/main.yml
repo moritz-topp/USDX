@@ -34,7 +34,7 @@ jobs:
           ./nsis-3.05-setup.exe /S
       - name: Build
         run: |
-          c:\lazarus\lazbuild src\ultrastardx-win.lpi  --lazarusdir=c:\lazarus --without-portaudio
+          c:\lazarus\lazbuild src\ultrastardx-win.lpi  --lazarusdir=c:\lazarus
       - name: Add prebuilt DLLs
         run: |
           python dldlls.py
