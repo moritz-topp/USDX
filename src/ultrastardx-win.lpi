@@ -403,7 +403,7 @@
       </Unit88>
       <Unit89>
         <Filename Value="media\UAudioCore_Portaudio.pas"/>
-        <IsPartOfProject Value="False"/>
+        <IsPartOfProject Value="True"/>
       </Unit89>
       <Unit90>
         <Filename Value="screens\views\UScreenSingView.pas"/>
@@ -419,7 +419,7 @@
       </Unit92>
       <Unit93>
         <Filename Value="media\UAudioInput_Portaudio.pas"/>
-        <IsPartOfProject Value="False"/>
+        <IsPartOfProject Value="True"/>
       </Unit93>
       <Unit94>
         <Filename Value="media\UAudioPlayback_Bass.pas"/>
@@ -427,7 +427,7 @@
       </Unit94>
       <Unit95>
         <Filename Value="media\UAudioPlayback_Portaudio.pas"/>
-        <IsPartOfProject Value="False"/>
+        <IsPartOfProject Value="True"/>
       </Unit95>
       <Unit96>
         <Filename Value="media\UAudioPlayback_SDL.pas"/>
